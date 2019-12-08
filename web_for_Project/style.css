@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 75px;
+    line-height: 75px;
+    background-color: white;
+    font-size: 40px;
+
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-size: cover; /* Add this line */
+    background-position: center center; /* Add this line */
+    background-repeat: no-repeat; /* Add this line */
+    background-attachment: fixed; /* Add this line */
+}
+
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#hero h1 {
+    font-size: 6em;
+}
+
+section h2 {
+    font-size: 4.5em;
+}
+
+section h3 {
+    font-size: 2em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact h1{
+    font-size: 5em;
+}
+
+section h2{
+    font-size: 2em;
+}
+
+/* Add everything below here */
+
+#hero {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pdsmultinational.com/wp-content/uploads/2014/02/Global_infrastructure_950x371.png');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://www.pdsmultinational.com/wp-content/uploads/2014/02/Global_infrastructure_950x371.png');
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('https://www.pdsmultinational.com/wp-content/uploads/2014/02/Global_infrastructure_950x371.png');
+}
